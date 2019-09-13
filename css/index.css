@@ -179,8 +179,12 @@ img {
   width: 100%;
   border-bottom: 2px dashed #C0C0C0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding: 20px 0;
+}
+.head h1 {
+  margin-right: 28%;
 }
 .head .nav a {
   text-decoration: none;
