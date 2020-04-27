@@ -1,1 +1,16 @@
 // Mixins in here
+
+.display(@type:flex, @direction:row, @wrap:nowrap, @justify:center, @align:center){
+    display: @type;
+    flex-direction: @direction;
+    flex-wrap: @wrap;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.btnStyle(@backColor, @radius, @color){
+    background-color: @backColor;
+    border-radius: @radius;
+    color: @color;
+    padding: 10px 40px;
+}
